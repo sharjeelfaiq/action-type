@@ -33,7 +33,8 @@ function App() {
 
     const handleClearAll = () => {
         localStorage.clear();
-        navigate("/")
+        navigate("/");
+        window.location.reload();
     };
     return (
         <>
